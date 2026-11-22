@@ -35,7 +35,7 @@ Un centro de comando integral en consola para administrar múltiples redes, moni
 
 * **Ideal para:** Traders, operadores de nodos, administradores de VPS y usuarios avanzados de Linux.
 * **Inversión:** **`$29 USD`** *(Pago único — Acceso vitalicio al repositorio privado y actualizaciones).*
-* **👉 [Adquirir `crypto-suite-cli` con Tarjeta](https://polar.sh)**
+* **👉 [Adquirir `crypto-suite-cli` con Tarjeta](https://buy.polar.sh/polar_cl_i04iuXU7AWi9YHyYpxY4vBLzV66sjJHznef4S1lNwpH)**
 
 ---
 
@@ -49,7 +49,7 @@ Arquitectura de contrato inteligente empresarial construida sobre **OpenZeppelin
 
 * **Ideal para:** Fundadores de proyectos Web3, desarrolladores Solidity y equipos DeFi.
 * **Inversión:** **`$49 USD`** *(Licencia comercial para despliegue en proyectos propios).*
-* **👉 [Adquirir `zepe_v4_clean` con Tarjeta](https://polar.sh)**
+* **👉 [Adquirir `zepe_v4_clean` con Tarjeta](https://buy.polar.sh/polar_cl_l6KYzE54gKtRsGdmBLTYxMPR8crhlYDxs1WyK4YPJzU)**
 
 ---
 
@@ -63,7 +63,7 @@ Paquete integral en Solidity y Foundry para crear, probar y desplegar un ecosist
 
 * **Ideal para:** Lanzamiento rápido de tokens BEP-20, ecosistemas de recompensas y pruebas de liquidez en BSC.
 * **Inversión:** **`$39 USD`** *(Licencia comercial para despliegue en proyectos propios).*
-* **👉 [Adquirir `bsc_moneda` con Tarjeta](https://polar.sh)**
+* **👉 [Adquirir `bsc_moneda` con Tarjeta](https://buy.polar.sh/polar_cl_7lMEfOOsax7t5vzS9wGKheudot5evudW3Kzh40oP3AH)**
 
 ---
 
