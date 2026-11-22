@@ -1,110 +1,103 @@
-# ⚡ Ecosistema Web3 & Crypto CLI — Herramientas Profesionales de Alto Rendimiento
+<div align="center">
 
-> **Opera, audita y despliega infraestructura blockchain desde tu terminal Linux con cero bloatware, aislamiento total de claves privadas y código listo para producción.**
+# ⚡ CRYPTO TOOLS CLI & WEB3 FOUNDRY SUITE
+### **Infraestructura Ultraligera para Terminal Linux & Contratos Inteligentes Listos para Producción**
 
-Este repositorio funciona como catálogo oficial de herramientas privadas desarrolladas en **Python, Bash y Solidity (Foundry)**. Cada solución está diseñada para desarrolladores, traders algorítmicos y operadores Web3 que exigen velocidad de ejecución, bajo consumo de recursos y control absoluto sobre su seguridad.
+[![Linux](https://shields.io)](https://github.com)
+[![Python](https://shields.io)](https://github.com)
+[![Solidity](https://shields.io)](https://github.com)
+[![Instant Delivery](https://shields.io)](https://github.com)
 
----
+**Deja atrás las interfaces web pesadas, lentas y llenas de rastreadores.**  
+Opera múltiples redes blockchain, blinda tus llaves privadas sin conexión y despliega contratos inteligentes auditables directamente desde tu consola.
 
-## 🎯 ¿Por qué elegir estas herramientas?
+[🚀 Explorar Herramientas](#-catálogo-de-productos-y-descarga-inmediata) • [🔐 Arquitectura Zero-Trust](#-por-qué-elegir-esta-suite) • [❓ Preguntas Frecuentes](#-preguntas-frecuentes)
 
-* **⚡ Ultraligeras y Sin Interfaz Gráfica:** Ejecución directa en terminal (Kali, Debian, Ubuntu, VPS) con consumo mínimo de memoria RAM y CPU.
-* **🔐 Seguridad por Diseño (*Zero-Trust*):** Sin dependencias innecesarias de terceros; almacenamiento cifrado local con estándares bancarios y separación estricta entre consulta y firma.
-* **🛠️ Código Modular y Extensible:** Estructura limpia y documentada para que puedas integrar los scripts en tus propios bots, *cronjobs* o flujos de despliegue.
-* **🚀 Listo para Producción:** Contratos inteligentes compilados y testeados bajo el estándar profesional de **Foundry**.
-
----
-
-## 📦 Catálogo Detallado de Productos
-
-### 1. `crypto-suite-cli` — Suite 10 en 1 para Gestión Cripto en Linux
-Un centro de comando integral en consola para administrar múltiples redes, monitorear mercados y blindar tus credenciales sin depender de aplicaciones web pesadas.
-
-| # | Módulo | Capacidades Clave |
-| :- | :--- | :--- |
-| **01** | **`crypto-vault-offline`** | Bóveda local cifrada con **AES-256-GCM** y derivación PBKDF2 (480,000 iteraciones) con permisos `0600` para guardar frases semilla BIP-39 y claves privadas sin conexión. |
-| **02** | **`tron-cli-manager`** | Consulta instantánea de saldos **TRX y USDT (TRC-20)**, energía disponible y ancho de banda mediante integración directa con TronGrid. |
-| **03** | **`ton-wallet-commander`** | Administración de billeteras **TON**, verificación de estado en red e historial de transferencias con conmutación automática entre nodos (`TON Center` + `TON API`). |
-| **04** | **`evm-bsc-toolkit`** | Monitoreo en vivo de **BNB Smart Chain (BSC)**: número de bloque actual, precio del gas en Gwei y consulta de saldos BNB. |
-| **05** | **`usdt-bridge-swapper`** | Cotizador de conversión en tiempo real (**TRX, TON, BNB → USDT**) con cálculo neto descontando comisiones de red (**TRC-20, BEP-20, TON**) y conversión simultánea a **USD y MXN**. |
-| **06** | **`binance-spot-cli`** | Consulta de precios en vivo y variación porcentual de 24h directamente desde la API de **Binance Spot** sin requerir claves privadas. |
-| **07** | **`chain-watcher-alerts`** | Demonio de vigilancia continua en terminal que detecta depósitos o retiros al instante y emite alertas en tiempo real. |
-| **08** | **`contract-security-auditor`** | Análisis estático rápido de *bytecode* en contratos BSC para verificar despliegue y detectar *opcodes* críticos (`DELEGATECALL` para proxies y `SELFDESTRUCT`). |
-| **09** | **`portfolio-cli-tracker`** | Consolidador multi-billetera (TRON + TON) que calcula el valor total de tus activos en **USD y MXN** en una sola tabla. |
-| **10** | **`crypto-ops-orchestrator`** | Menú interactivo centralizado en Bash para lanzar cualquiera de las herramientas desde un único comando. |
-
-* **Ideal para:** Traders, operadores de nodos, administradores de VPS y usuarios avanzados de Linux.
-* **Inversión:** **`$29 USD`** *(Pago único — Acceso vitalicio al repositorio privado y actualizaciones).*
-* **👉 [Adquirir `crypto-suite-cli` con Tarjeta](https://buy.polar.sh/polar_cl_i04iuXU7AWi9YHyYpxY4vBLzV66sjJHznef4S1lNwpH)**
+</div>
 
 ---
 
-### 2. `zepe_v4_clean` — Smart Contract ERC-20 Actualizable (UUPS)
-Arquitectura de contrato inteligente empresarial construida sobre **OpenZeppelin Upgradeable** y **Foundry**, diseñada para proyectos que necesitan evolucionar su lógica sin migrar liquidez ni cambiar la dirección del token.
+## 💻 Vista Previa en Consola (Consumo < 15 MB RAM)
 
-* **Patrón Proxy UUPS (*Universal Upgradeable Proxy Standard*):** Permite actualizar la implementación del contrato de forma segura y eficiente en costos de gas.
-* **Control de Acceso Granular:** Protección administrativa estricta sobre funciones críticas de actualización y activación.
-* **Scripts de Despliegue Automatizados (`DeployZepeV4.s.sol`):** Listos para ejecutar en mainnet o testnet con configuración limpia de variables de entorno y bloqueo de versiones (`foundry.lock`).
-* **Entorno Blindado:** Configuración `.gitignore` preestablecida para proteger archivos `.env.deployed` y artefactos sensibles.
-
-* **Ideal para:** Fundadores de proyectos Web3, desarrolladores Solidity y equipos DeFi.
-* **Inversión:** **`$49 USD`** *(Licencia comercial para despliegue en proyectos propios).*
-* **👉 [Adquirir `zepe_v4_clean` con Tarjeta](https://buy.polar.sh/polar_cl_l6KYzE54gKtRsGdmBLTYxMPR8crhlYDxs1WyK4YPJzU)**
-
----
-
-### 3. `bsc_moneda` — Kit Completo de Token e Intercambio en BNB Smart Chain
-Paquete integral en Solidity y Foundry para crear, probar y desplegar un ecosistema de token personalizado con módulo de intercambio integrado en **BNB Smart Chain (BSC)**.
-
-* **Contrato de Token (`MiMoneda.sol`):** Implementación limpia, auditada y optimizada para bajo consumo de gas en BSC.
-* **Módulo de Intercambio (`IntercambioGratis.sol`):** Lógica lista para gestionar swaps o distribución directa de tokens sin intermediarios.
-* **Suite de Pruebas Unitarias en Foundry:** Tests automatizados para validar cada función antes de desplegar en Mainnet.
-* **Integración CI/CD:** Flujo de trabajo preconfigurado en GitHub Actions.
-
-* **Ideal para:** Lanzamiento rápido de tokens BEP-20, ecosistemas de recompensas y pruebas de liquidez en BSC.
-* **Inversión:** **`$39 USD`** *(Licencia comercial para despliegue en proyectos propios).*
-* **👉 [Adquirir `bsc_moneda` con Tarjeta](https://buy.polar.sh/polar_cl_7lMEfOOsax7t5vzS9wGKheudot5evudW3Kzh40oP3AH)**
+```text
+================ 🛠️ CRYPTO SUITE CLI (LINUX) ================
+  1) Bóveda cifrada AES-256-GCM (Offline / Air-Gapped)
+  2) Portafolio consolidado en vivo (USD / MXN)
+  3) Gestor TRON (TRX + USDT TRC-20 + Energía/Bandwidth)
+  4) Gestor TON (Dual-Node Fallback + Historial)
+  5) Cotizador USDT (TRC-20 / BEP-20 / TON con fees de red)
+  6) Monitor Binance Spot 24h (Sin API Key)
+  7) Estado de red BSC & Gas Gwei en tiempo real
+  8) Auditor rápido de Bytecode EVM (DELEGATECALL / Proxies)
+=============================================================
+💰 TOTAL PORTAFOLIO: \$1,420.50 USD  (~\$28,836.15 MXN)
+```
 
 ---
 
-## 🔥 Oferta Especial: Paquete Completo (All-Access Bundle)
+## 🔥 ¿Por qué elegir esta suite?
 
-Obtén acceso inmediato a los **3 repositorios privados** (`crypto-suite-cli` + `zepe_v4_clean` + `bsc_moneda`) y ahorra **$28 USD**:
-
-| Plan | Contenido Incluido | Precio Normal | Precio Oferta |
-| :--- | :--- | :---: | :---: |
-| **Bundle Completo (3 en 1)** | Los 3 repositorios privados + acceso a futuras mejoras | ~~$117 USD~~ | **`$89 USD`** |
-
-* **👉 [Adquirir el Paquete Completo con Tarjeta](https://polar.sh)**
+* **⚡ Cero Bloatware, Máxima Velocidad:** Construido exclusivamente sobre librerías estándar de Python 3, Bash y Foundry. Corre fluido incluso en VPS económicos o equipos antiguos.
+* **🔐 Seguridad Bancaria Offline (`AES-256-GCM`):** Tus frases semilla BIP-39 y claves privadas nunca tocan la red ni dependen de extensiones de navegador vulnerables.
+* **🌐 Multi-Cadena Nativo:** Soporte directo vía RPC para **TRON (TRX / TRC-20)**, **TON**, **BNB Smart Chain (BSC)** y **Binance Spot**.
+* **📦 Código Fuente 100% Tuyo:** Sin suscripciones mensuales ni bloqueos. Pagas una sola vez y descargas el paquete completo listo para usar o integrar en tus propios bots.
 
 ---
 
-## 💳 Métodos de Compra y Entrega Inmediata
+## 🚀 Catálogo de Productos y Descarga Inmediata
 
-### Opción A: Pago Automatizado con Tarjeta (Entrega en 1 minuto)
-1. Haz clic en cualquiera de los enlaces de compra vía **Polar.sh** arriba.
-2. Inicia sesión con tu cuenta de GitHub y completa el pago seguro.
-3. El sistema te enviará **automáticamente** la invitación como colaborador al repositorio privado correspondiente.
-
-### Opción B: Pago Directo con Criptomonedas (0% Comisiones)
-Aceptamos pagos directos en **USDT (TRC-20 / BEP-20), TRX, BNB o TON**:
-
-1. Realiza la transferencia por el monto del producto elegido:
-   * **USDT (TRC-20) / TRX:** `TU_DIRECCION_TRON_AQUI`
-   * **USDT (BEP-20) / BNB:** `TU_DIRECCION_BSC_AQUI`
-   * **TON:** `TU_DIRECCION_TON_AQUI`
-2. Envía el **ID / Hash de la transacción** junto con tu **nombre de usuario de GitHub** a:
-   * **Telegram:** `@tu_usuario_telegram`
-   * **WhatsApp:** `+52 TU_NUMERO_AQUI`
-3. Recibirás acceso inmediato al repositorio en menos de 15 minutos.
+| Producto | Ideal Para | Entrega | Inversión | Compra Segura |
+| :--- | :--- | :---: | :---: | :---: |
+| **1. `crypto-suite-cli`**<br>*(Suite 10 Herramientas en 1)* | Traders, operadores VPS y usuarios Linux | `.zip` Instantáneo | **`$29 USD`** | [**💳 Comprar Ahora**](https://polar.sh) |
+| **2. `zepe_v4_clean`**<br>*(ERC-20 Actualizable UUPS)* | Fundadores Web3 y desarrolladores DeFi | `.zip` Instantáneo | **`$49 USD`** | [**💳 Comprar Ahora**](https://polar.sh) |
+| **3. `bsc_moneda`**<br>*(Kit Token BEP-20 + Swap)* | Lanzamiento rápido de tokens en BSC | `.zip` Instantáneo | **`$39 USD`** | [**💳 Comprar Ahora**](https://polar.sh) |
 
 ---
 
-## ❓ Preguntas Frecuentes (FAQ)
+## 🔍 Desglose Técnico Detallado
 
-* **¿Qué recibo exactamente al comprar?**
-  Recibes acceso permanente de lectura (`git clone` y descarga completa del código fuente) al repositorio privado seleccionado en GitHub, junto con todas sus actualizaciones futuras.
-* **¿Funciona en cualquier distribución de Linux?**
-  Sí. `crypto-suite-cli` funciona en Kali Linux, Ubuntu, Debian y servidores VPS sin necesidad de entorno gráfico. Los contratos en Solidity requieren únicamente tener instalado Foundry.
-* **¿Puedo revender el código fuente?**
-  No. La compra otorga una **licencia de uso y despliegue** para tus propios proyectos o operaciones. Queda prohibida la redistribución o reventa del código fuente original.
+### 1️⃣ `crypto-suite-cli` — Centro de Comando Cripto 10 en 1 (`$29 USD`)
+Todo lo que necesitas para administrar, vigilar y cotizar activos desde una sola terminal:
+1. **`crypto-vault-offline`**: Cifrado local **AES-256-GCM** con derivación PBKDF2 (480,000 iteraciones) y permisos estrictos `0600`.
+2. **`tron-cli-manager`**: Consulta saldos de **TRX y USDT (TRC-20)**, energía disponible y ancho de banda vía TronGrid.
+3. **`ton-wallet-commander`**: Consulta saldos y movimientos en **TON** con conmutación automática entre nodos (`TON Center` + `TON API`).
+4. **`evm-bsc-toolkit`**: Lectura directa de bloque actual, precio del gas en Gwei y saldos BNB en **BSC Mainnet**.
+5. **`usdt-bridge-swapper`**: Calcula conversiones netas hacia **USDT** descontando comisiones de red (`TRC-20`, `BEP-20`, `TON`) en **USD y MXN**.
+6. **`binance-spot-cli`**: Precios en vivo y variación porcentual 24h desde **Binance Spot** sin exponer credenciales.
+7. **`chain-watcher-alerts`**: Vigilancia continua en consola con alertas instantáneas ante depósitos o retiros.
+8. **`contract-security-auditor`**: Escáner estático de *bytecode* para verificar contratos y detectar *opcodes* de proxy (`DELEGATECALL`) o `SELFDESTRUCT`.
+9. **`portfolio-cli-tracker`**: Consolida múltiples direcciones TRON y TON en un solo balance global.
+10. **`crypto-ops-orchestrator`**: Menú central en Bash para operar toda la suite con un solo comando.
+
+👉 [**Obtener `crypto-suite-cli` ahora ($29 USD — Pago Único)**](https://polar.sh)
+
+---
+
+### 2️⃣ `zepe_v4_clean` — Smart Contract ERC-20 Actualizable UUPS (`$49 USD`)
+Arquitectura profesional desarrollada en **Solidity y Foundry** sobre el estándar **OpenZeppelin Upgradeable**:
+* **Actualizaciones Sin Migrar Liquidez:** Implementa el patrón proxy **UUPS** para evolucionar la lógica del contrato manteniendo intacta la dirección del token y los saldos de los usuarios.
+* **Control de Acceso Estricto:** Roles administrativos protegidos contra llamadas no autorizadas.
+* **Despliegue Automatizado (`DeployZepeV4.s.sol`):** Scripts listos para Mainnet/Testnet con gestión segura de variables de entorno.
+
+👉 [**Obtener `zepe_v4_clean` ahora ($49 USD — Licencia Comercial)**](https://polar.sh)
+
+---
+
+### 3️⃣ `bsc_moneda` — Kit Completo de Token e Intercambio en BSC (`$39 USD`)
+Paquete listo para compilar, probar y desplegar en **BNB Smart Chain**:
+* **Token Optimizado (`MiMoneda.sol`):** Código limpio y eficiente en consumo de gas.
+* **Módulo de Intercambio (`IntercambioGratis.sol`):** Lógica integrada para swaps o distribución directa de tokens.
+* **Pruebas Unitarias en Foundry:** Suite automatizada para validar cada función antes de salir a producción.
+
+👉 [**Obtener `bsc_moneda` ahora ($39 USD — Licencia Comercial)**](https://polar.sh)
+
+---
+
+## ❓ Preguntas Frecuentes
+
+* **¿Cómo recibo los archivos después de pagar?**
+  Al completar tu pago en **Polar.sh** (tarjeta de crédito, débito o Apple Pay/Google Pay), se desbloquea al instante la descarga directa del paquete `.zip` con todo el código fuente y documentación.
+* **¿Tengo que pagar mensualidades?**
+  No. Todos los productos son de **pago único** con acceso vitalicio al código adquirido.
+* **¿Qué necesito para ejecutarlos?**
+  Para `crypto-suite-cli` basta con cualquier distribución Linux (Kali, Ubuntu, Debian) con Python 3. Para los contratos inteligentes (`zepe_v4_clean` y `bsc_moneda`) solo necesitas tener instalado [Foundry](https://getfoundry.sh).
